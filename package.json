@@ -1,0 +1,31 @@
+{
+  "name": "nodeapp_cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "9.1.1",
+    "supertest": "6.1.6"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raonadeem/nodeapp_cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raonadeem/nodeapp_cicd/issues"
+  },
+  "homepage": "https://github.com/raonadeem/nodeapp_cicd#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
